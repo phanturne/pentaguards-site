@@ -125,7 +125,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #1B5886;
 }
 
 #header .logo {
@@ -909,7 +909,75 @@ section {
   transform: translateY(-10px);
 }
 
+.features .icon, h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /*.features .icon-box:hover h4 a {*/
+/*  color: #47b2e4;*/
+/*}*/
+
+/*--------------------------------------------------------------
+# cosmo-cards
+--------------------------------------------------------------*/
+.cosmo-cards {
+  background: #212529;
+  color: #37517e;
+}
+
+.cosmo-cards .section-title {
+  color: #ffffff;
+}
+
+.cosmo-cards .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.cosmo-cards .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.cosmo-cards .icon-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.cosmo-cards .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.cosmo-cards .icon-box h4 {
+  color: #47b2e4;
+  transition: ease-in-out 0.3s;
+}
+
+.cosmo-cards .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.cosmo-cards .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.cosmo-cards .icon, h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cosmo-cards img {
+  width: 100%;
+  height: 100%;
+}
+/*.cosmo-cards .icon-box:hover h4 a {*/
 /*  color: #47b2e4;*/
 /*}*/
 
@@ -1826,6 +1894,14 @@ section {
   background: #209dd8;
   color: #fff;
   text-decoration: none;
+}
+
+#footer .footer-top .social-links p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
 }
 
 #footer .footer-bottom {
