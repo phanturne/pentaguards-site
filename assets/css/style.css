@@ -201,7 +201,7 @@ h6 {
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   border: 2px solid #47b2e4;
   font-weight: 600;
 }
@@ -234,7 +234,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: none;
   font-weight: 500;
   color: #0c3c53;
@@ -864,6 +864,11 @@ section {
 --------------------------------------------------------------*/
 .features {
   background: #212529;
+  color: #37517e;
+}
+
+.features .section-title {
+  color: #ffffff;
 }
 
 .features .icon-box {
@@ -890,7 +895,7 @@ section {
 }
 
 .features .icon-box h4 {
-  color: #37517e;
+  color: #47b2e4;
   transition: ease-in-out 0.3s;
 }
 
@@ -1857,4 +1862,22 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+#footer .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
+#footer .btn-get-started:hover {
+  background: #209dd8;
 }
