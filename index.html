@@ -274,7 +274,7 @@
 
               <div class="commands-section" id="Category0">
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="ban">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fban">
@@ -290,7 +290,7 @@
                   </div>
                 </div>
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="kick">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fkick">
@@ -306,7 +306,7 @@
                   </div>
                 </div>
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="timeout">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#ftimeout">
@@ -324,10 +324,9 @@
 
               </div>
 
-
               <div class="commands-section" id="Category1">
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="avatar">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#favatar">
@@ -345,37 +344,86 @@
                   </div>
                 </div>
 
-                <div class="accordion accordion-flush mt-2">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fping">
-                        /ping&nbsp; <span class="command-description">- Check bot and client latency</span>
-                      </button>
-                    </h2>
-                    <div id="fping" class="accordion-collapse collapse" data-bs-parent="#ping">
-                      <div class="accordion-body">
-                        <span class="usage-text">Usage Examples:</span> <br/>
-                        <span class="examples">/ping<br></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+<!--                <div class="accordion accordion-flush mt-2" id="ping">-->
+<!--                  <div class="accordion-item">-->
+<!--                    <h2 class="accordion-header">-->
+<!--                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fping">-->
+<!--                        /ping&nbsp; <span class="command-description">- Check bot and client latency</span>-->
+<!--                      </button>-->
+<!--                    </h2>-->
+<!--                    <div id="fping" class="accordion-collapse collapse" data-bs-parent="#ping">-->
+<!--                      <div class="accordion-body">-->
+<!--                        <span class="usage-text">Usage Examples:</span> <br/>-->
+<!--                        <span class="examples">/ping<br></span>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
 
               </div>
 
               <div class="commands-section" id="Category2">
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="cat">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fping">
-                        /ping&nbsp; <span class="command-description">- Check bot and client latency</span>
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fcat">
+                        /cat&nbsp; <span class="command-description">- Sends a random cat picture</span>
                       </button>
                     </h2>
-                    <div id="fping" class="accordion-collapse collapse" data-bs-parent="#ping">
+                    <div id="fcat" class="accordion-collapse collapse" data-bs-parent="#cat">
                       <div class="accordion-body">
                         <span class="usage-text">Usage Examples:</span> <br/>
-                        <span class="examples">/ping<br></span>
+                        <span class="examples">/cat<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="dadjoke">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fdadjoke">
+                        /dadjoke&nbsp; <span class="command-description">- Sends a random dadjoke</span>
+                      </button>
+                    </h2>
+                    <div id="fdadjoke" class="accordion-collapse collapse" data-bs-parent="#dadjoke">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/dadjoke<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="inspire">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#finspire">
+                        /inspire&nbsp; <span class="command-description">- Sends a random inspirational quote</span>
+                      </button>
+                    </h2>
+                    <div id="finspire" class="accordion-collapse collapse" data-bs-parent="#inspire">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/inspire<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="insult">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#finsult">
+                        /insult&nbsp; <span class="command-description">- Sends a random insult</span>
+                      </button>
+                    </h2>
+                    <div id="finsult" class="accordion-collapse collapse" data-bs-parent="#insult">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/insult @member<br></span>
+                        <span class="examples">/insult<br></span>
                       </div>
                     </div>
                   </div>
@@ -383,20 +431,67 @@
 
               </div>
 
-
               <div class="commands-section" id="Category3">
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="2048">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fping">
-                        /ping&nbsp; <span class="command-description">- Check bot and client latency</span>
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f2048">
+                        /2048&nbsp; <span class="command-description">- Start a game of 2048</span>
                       </button>
                     </h2>
-                    <div id="fping" class="accordion-collapse collapse" data-bs-parent="#ping">
+                    <div id="f2048" class="accordion-collapse collapse" data-bs-parent="#2048">
                       <div class="accordion-body">
                         <span class="usage-text">Usage Examples:</span> <br/>
-                        <span class="examples">/ping<br></span>
+                        <span class="examples">/2048<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="connect4">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fconnect4">
+                        /connect4&nbsp; <span class="command-description">- Start a game of Connect 4</span>
+                      </button>
+                    </h2>
+                    <div id="fconnect4" class="accordion-collapse collapse" data-bs-parent="#connect4">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/connect4 @member<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="emojiSearch">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#femojiSearch">
+                        /emojiSearch&nbsp; <span class="command-description">- Start a game of Emoji Search</span>
+                      </button>
+                    </h2>
+                    <div id="femojiSearch" class="accordion-collapse collapse" data-bs-parent="#emojiSearch">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/emojiSearch<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="floodFill">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#ffloodFill">
+                        /floodFill&nbsp; <span class="command-description">- Start a game of Flood Fill</span>
+                      </button>
+                    </h2>
+                    <div id="ffloodFill" class="accordion-collapse collapse" data-bs-parent="#floodFill">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/floodFill<br></span>
                       </div>
                     </div>
                   </div>
@@ -426,17 +521,162 @@
 
               <div class="commands-section" id="Category4">
 
-                <div class="accordion accordion-flush mt-2">
+                <div class="accordion accordion-flush mt-2" id="start">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fstart">
+                      /start&nbsp; <span class="command-description">- Create a player profile for Cosmo Cards</span>
+                    </button>
+                  </h2>
+                  <div id="fstart" class="accordion-collapse collapse" data-bs-parent="#start">
+                    <div class="accordion-body">
+                      <span class="usage-text">Usage Examples:</span> <br/>
+                      <span class="examples">/start<br></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <div class="accordion accordion-flush mt-2" id="claim">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fping">
-                        /ping&nbsp; <span class="command-description">- Check bot and client latency</span>
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fclaim">
+                        /claim&nbsp; <span class="command-description">- Choose a card to claim</span>
                       </button>
                     </h2>
-                    <div id="fping" class="accordion-collapse collapse" data-bs-parent="#ping">
+                    <div id="fclaim" class="accordion-collapse collapse" data-bs-parent="#claim">
                       <div class="accordion-body">
                         <span class="usage-text">Usage Examples:</span> <br/>
-                        <span class="examples">/ping<br></span>
+                        <span class="examples">/claim<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="daily">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fdaily">
+                        /daily&nbsp; <span class="command-description">- Claim your daily currencies</span>
+                      </button>
+                    </h2>
+                    <div id="fdaily" class="accordion-collapse collapse" data-bs-parent="#daily">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/daily<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="profile">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fprofile">
+                        /profile&nbsp; <span class="command-description">- View a player's profile</span>
+                      </button>
+                    </h2>
+                    <div id="fprofile" class="accordion-collapse collapse" data-bs-parent="#profile">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/profile @member<br></span>
+                        <span class="examples">/profile<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="submit">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fsubmit">
+                        /submit&nbsp; <span class="command-description">- Submit a user-made card</span>
+                      </button>
+                    </h2>
+                    <div id="fsubmit" class="accordion-collapse collapse" data-bs-parent="#submit">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/submit image<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="artist">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fartist">
+                        /artist&nbsp; <span class="command-description">- View an artist's profile</span>
+                      </button>
+                    </h2>
+                    <div id="fartist" class="accordion-collapse collapse" data-bs-parent="#artist">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/artist<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="artistprofile">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fartistprofile">
+                        /artistprofile&nbsp; <span class="command-description">- Set up your artist profile</span>
+                      </button>
+                    </h2>
+                    <div id="fartistprofile" class="accordion-collapse collapse" data-bs-parent="#artistprofile">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/artistprofile<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="card">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fcard">
+                        /card&nbsp; <span class="command-description">- View a card's information and stats</span>
+                      </button>
+                    </h2>
+                    <div id="fcard" class="accordion-collapse collapse" data-bs-parent="#card">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/card<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="guide">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fguide">
+                        /guide&nbsp; <span class="command-description">- View the player guide</span>
+                      </button>
+                    </h2>
+                    <div id="fguide" class="accordion-collapse collapse" data-bs-parent="#guide">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/guide<br></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush mt-2" id="vote">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fvote">
+                        /vote&nbsp; <span class="command-description">- Receive rewards for upvoting the bot</span>
+                      </button>
+                    </h2>
+                    <div id="fvote" class="accordion-collapse collapse" data-bs-parent="#vote">
+                      <div class="accordion-body">
+                        <span class="usage-text">Usage Examples:</span> <br/>
+                        <span class="examples">/vote<br></span>
                       </div>
                     </div>
                   </div>
@@ -448,7 +688,16 @@
           </div>
         </div>
 
-<!--        <input id="commands" value="[{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-gift ttt&#39;&gt;&lt;/i&gt;&amp;nbsp; Moderation Commands&#34;,&#34;commands&#34;:[&#34;ban&#34;,&#34;kick&#34;,&#34;mute&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-globe-europe ttt&#39;&gt;&lt;/i&gt;&amp;nbsp; General Commands&#34;,&#34;commands&#34;:[&#34;help&#34;,&#34;ping&#34;,&#34;invite&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-hammer-war ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp; Leveling Commands&#34;,&#34;commands&#34;:[&#34;leaderboard&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fas fa-crown ttt&#39;&gt;&lt;/i&gt;&amp;nbsp; Premium Commands&#34;,&#34;commands&#34;:[&#34;reactionrole&#34;,&#34;slowmode&#34;]}]" hidden />-->
+        <input id="commands" value="[
+        {&#34;title&#34;:&#34;&lt;i class=&#39;fas ffdsa-gift ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;
+        Moderation&#34;,&#34;commands&#34;:[&#34;ban&#34;,&#34;kick&#34;,&#34;timeout&#34;]}" hidden />
+<!--        <input id="commands" value="[{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-gift ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;-->
+<!--        Moderation&#34;,&#34;commands&#34;:[&#34;ban&#34;,&#34;kick&#34;,&#34;timeout&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-globe-europe ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;-->
+<!--        General&#34;,&#34;commands&#34;:[&#34;avatar&#34;,&#34;ping&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fa-hammer-war ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;-->
+<!--        Entertainment&#34;,&#34;commands&#34;:[&#34;cat&#34;,&#34;dadjoke&#34;,&#34;inspire&#34;,&#34;insult&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fas fa-crown ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;-->
+<!--        Mini-games&#34;,&#34;commands&#34;:[&#34;2048&#34;,&#34;connect4&#34;,&#34;emojiSearch&#34;,&#34;floodFill&#34;]},{&#34;title&#34;:&#34;&lt;i class=&#39;fas fas fa-crown ttt&#39;&gt;&lt;/i&gt;&amp;nbsp;-->
+<!--        Cosmo Cards&#34;,&#34;commands&#34;:[&#34;start&#34;]}]" hidden />-->
+
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="/fontawesome/all.min.js"></script>
         <script src="/js/animation.js"></script>
