@@ -160,7 +160,7 @@ hr {
 .accordion-button::after {
     display: none;
 }
-.command-descreption {
+.command-description {
     color: #bdbdbd;
 }
 .examples {
